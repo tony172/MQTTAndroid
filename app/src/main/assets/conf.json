@@ -1,0 +1,31 @@
+{
+"clientID":"sub",
+"broker":"tcp://192.168.1.45:1883",
+"topic":"vjezba3/antonio/#",
+"gauges":[
+	{
+	"topic":"vjezba3/antonio/temp",
+	"unit":"C",
+	"min":-10,
+	"max":60,
+	"title":"Temperature"
+	},
+	{
+	"topic":"vjezba3/antonio/pressure",
+	"unit":"PSI",
+	"min":0,
+	"max":30,
+	"title":"Pressure"
+	},
+	{
+	"topic":"vjezba3/antonio/flowXXsensor1",
+	"unit":"l",
+	"min":0,
+	"max":100,
+	"title":"Flow"
+	}
+
+         ]
+
+
+}
